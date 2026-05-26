@@ -1,0 +1,11 @@
+node_modules/
+android/app/build/
+android/build/
+ios/Pods/
+ios/build/
+.env
+.gradle/
+.idea/
+.vscode/
+*.log
+coverage/
