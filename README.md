@@ -2,8 +2,6 @@
 
 TDERIDES is a university-level React Native CLI mobile application inspired by ride-hailing platforms. It supports rider authentication, profile management, Google Maps destination search, route rendering, fare estimation, simulated driver tracking, simulated payment confirmation, and ride history stored in Firebase Firestore.
 
-This project is designed for academic evaluation. It is functional for Android and iOS testing, but it does not implement real payments, real driver dispatching, production security rules, or production monitoring.
-
 ## Technologies
 
 - React Native CLI
@@ -319,28 +317,11 @@ Vehicle values:
 - MercadoPago and credit card options do not connect to real providers.
 - No separate driver application is included.
 
-## Git Workflow
-
-- `main` is the stable integration branch.
-- Each team member should create a feature branch, for example `feature/auth-flow`, `feature/maps-flow`, or `feature/ride-history`.
-- Commits should be clear and focused, for example `Add profile validation` or `Implement ride tracking simulation`.
-- Pull requests should be opened before merging into `main`.
-- Another team member should review the pull request before merge.
-- Merge into `main` only after review and successful local testing.
-
 ## Team Members
 
-- Member 1: Name pending.
-- Member 2: Name pending.
-- Member 3: Name pending.
-- Member 4: Name pending.
-
-## Academic Notes
-
-- The application is built for a university project and demonstrates fullstack mobile concepts with Firebase and Google APIs.
-- The implementation prioritizes clear architecture, modular services, reusable UI components, and state management.
-- The project is not intended for production deployment without additional security, billing controls, driver-side workflows, payment provider integration, analytics, and hardened Firebase rules.
-- Firebase rules should be tightened before any public release.
+- Samuel Valencia Buitrago
+- Elizabeth Díaz Cordoba
+- Santiago Suaza Cardona
 
 ## Main Files to Review
 
